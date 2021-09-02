@@ -87,7 +87,7 @@ jobs:
                 uses: docker/build-push-action@v2
                 with:
                     context: ./php/worker/
-                    file: ./php/worker/worker_${{ matrix.short_name }}.dockerfile
+                    file: ./php/worker/worker_${{ matrix.name }}.dockerfile
                     push: true
                     tags: ${{ secrets.DH_USERNAME }}/php:worker-${{ matrix.short_name }}-latest
                     # tags:
