@@ -1,6 +1,7 @@
 # docker-builds
-Docker images to remove the redundancy for building the same images multiple times.
 
-Check the docker images from https://hub.docker.com/u/sirajul
+:warning: **DON'T USE IN PRODUCTION [DEV USE ONLY]**
 
-**DON'T USE IN PRODUCTION [DEV USE ONLY]**
+Docker images to remove redundancy for building same image in multiple projects.
+
+Check the docker images from [/u/sirajul](https://hub.docker.com/u/sirajul) 

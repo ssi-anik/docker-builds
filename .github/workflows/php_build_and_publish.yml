@@ -17,10 +17,12 @@ jobs:
 
         strategy:
             matrix:
-                name: [ 'php74' ]
+                name: [ 'php74', 'php80' ]
                 include:
                     - name: php74
                       short_name: 74
+                    - name: php80
+                      short_name: 80
 
         steps:
             -   name: Checkout
@@ -58,10 +60,12 @@ jobs:
 
         strategy:
             matrix:
-                name: [ 'php74' ]
+                name: [ 'php74', 'php80' ]
                 include:
                     - name: php74
                       short_name: 74
+                    - name: php80
+                      short_name: 80
 
         steps:
             -   name: Checkout
