@@ -4,7 +4,15 @@ RUN apt-get update
 
 RUN apt-get install -y libpq-dev libpng-dev curl nano unzip zip git jq supervisor
 
-RUN docker-php-ext-install pdo_pgsql pdo_mysql gd
+RUN docker-php-ext-install pdo_pgsql pdo_mysql
+
+# JPEG - https://stackoverflow.com/a/52892313/2190689
+RUN apt-get update && apt-get install -y \
+        libfreetype6-dev \
+        libjpeg62-turbo-dev \
+        libpng-dev \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install -j$(nproc) gd
 
 RUN pecl install -o -f redis
 
