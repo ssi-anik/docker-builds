@@ -65,6 +65,7 @@
 - `SimpleXML`
 - `sodium`
 - `SPL`
+- `sockets`
 - `sqlite3`
 - `standard`
 - `tokenizer`

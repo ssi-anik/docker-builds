@@ -7,7 +7,7 @@ RUN curl --silent --fail --location --retry 3 --output /usr/local/bin/install-ph
     && chmod +x /usr/local/bin/install-php-extensions
 
 # Install php extensions
-RUN install-php-extensions pdo pdo_pgsql pdo_mysql bcmath redis opcache
+RUN install-php-extensions pdo pdo_pgsql pdo_mysql bcmath redis opcache sockets
 
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
