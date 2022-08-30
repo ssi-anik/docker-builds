@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  beanstalk:
-    name: Beanstalk
+  beanstalkd:
+    name: Beanstalkd
     runs-on: ubuntu-latest
 
     steps:
