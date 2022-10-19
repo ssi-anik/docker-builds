@@ -41,7 +41,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [ '74', '80', '81' ]
+        version: [ '82', '81', '80', '74' ]
         type: [ 'fpm', 'worker' ]
 
     steps:
