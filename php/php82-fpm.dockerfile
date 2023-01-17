@@ -1,5 +1,5 @@
 # syntax = edrevo/dockerfile-plus
-FROM php:8.2-rc-fpm
+FROM php:8.2-fpm
 
 INCLUDE+ ./includes/base.dockerfile
 INCLUDE+ ./includes/image.dockerfile
