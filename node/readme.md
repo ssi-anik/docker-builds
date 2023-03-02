@@ -1,4 +1,4 @@
-# Node builds Builds
+# Node Builds
 
 :warning: **WARNING: DON'T USE IN PRODUCTION. Build your own**
 
@@ -16,6 +16,8 @@
 
 - `sh`
 - `curl`
+- `python2`
+- `python3`
 - `nano`
 - `vim`
 - `unzip`
