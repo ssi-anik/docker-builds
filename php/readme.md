@@ -4,11 +4,13 @@
 
 ## Images
 
-|  Base Image   |  Tag                           | Exposed Ports |
+| Base Image    | Tag                            | Exposed Ports |
 |---------------|--------------------------------|---------------|
+| `php:8.2-fpm` | `sirajul/php:fpm-82-latest`    | `80`, `9000`  |
 | `php:8.1-fpm` | `sirajul/php:fpm-81-latest`    | `80`, `9000`  |
 | `php:8.0-fpm` | `sirajul/php:fpm-80-latest`    | `80`, `9000`  |
 | `php:7.4-fpm` | `sirajul/php:fpm-74-latest`    | `80`, `9000`  |
+| `php:8.2-cli` | `sirajul/php:worker-82-latest` | **N/A**       |
 | `php:8.1-cli` | `sirajul/php:worker-81-latest` | **N/A**       |
 | `php:8.0-cli` | `sirajul/php:worker-80-latest` | **N/A**       |
 | `php:7.4-cli` | `sirajul/php:worker-74-latest` | **N/A**       |
