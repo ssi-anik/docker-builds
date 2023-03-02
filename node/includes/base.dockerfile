@@ -1,4 +1,4 @@
-RUN apk add --no-cache jq python2 python3 curl wget vim nano git zip
+RUN apk add --no-cache jq curl wget vim nano git zip
 
 ENV YARN_CACHE_DIR "/tmp/yarn-cache"
 ENV NPM_CACHE_DIR "/tmp/npm-cache"

@@ -16,8 +16,6 @@
 
 - `sh`
 - `curl`
-- `python2`
-- `python3`
 - `nano`
 - `vim`
 - `unzip`
