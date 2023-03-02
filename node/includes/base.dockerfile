@@ -6,7 +6,7 @@ ENV NPM_CACHE_DIR "/tmp/npm-cache"
 RUN mkdir -p ${YARN_CACHE_DIR} && \
     mkdir -p ${NPM_CACHE_DIR} && \
     yarn config set cache-folder ${YARN_CACHE_DIR} && \
-    npm config get cache ${NPM_CACHE_DIR} --global
+    npm config set cache ${NPM_CACHE_DIR} --global
 
 WORKDIR /app
 
