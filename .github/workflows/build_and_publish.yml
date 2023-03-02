@@ -97,6 +97,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: ./node/
-          file: ./node/node{{ matrix.version }}.dockerfile
+          file: ./node/node${{ matrix.version }}.dockerfile
           push: true
           tags: ${{ secrets.DH_USERNAME }}/node:${{ matrix.version }}-latest
