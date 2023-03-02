@@ -6,6 +6,8 @@ RUN apt-get update && apt-get install -y beanstalkd
 
 RUN mkdir -p /binlog
 
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
 VOLUME [ "/binlog" ]
 
 EXPOSE 11300
