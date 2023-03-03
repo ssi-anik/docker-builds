@@ -1,7 +1,8 @@
-# docker-builds
+# Docker builds
 
-:warning: **DON'T USE IN PRODUCTION [DEV USE ONLY]**
+This project has been split into multiple repositories.
 
-Docker images to remove redundancy for building same image in multiple projects.
-
-Check the docker images from [/u/sirajul](https://hub.docker.com/u/sirajul) 
+- [PHP Builds](https://github.com/ssi-anik/docker-builds-php)
+- [Node Builds](https://github.com/ssi-anik/docker-builds-node)
+- [RabbitMQ Builds](https://github.com/ssi-anik/docker-builds-rabbitmq)
+- [Beanstalkd Builds](https://github.com/ssi-anik/docker-builds-beanstalkd)
